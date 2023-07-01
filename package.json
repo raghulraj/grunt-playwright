@@ -1,0 +1,37 @@
+{
+  "name": "grunt-playwright",
+  "description": "A Grunt plugin for running playwright",
+  "version": "0.0.1",
+  "homepage": "https://github.com/raghulraj/grunt-playwright",
+  "author": {
+    "name": "Raghul Raj V",
+    "email": "raghulraj@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raghulraj/grunt-playwright.git"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 6.9.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "playwright": "^1.35.1",
+    "shelljs": "0.8.5",
+    "split": "~1.0.0",
+    "through2": "~2.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+}
